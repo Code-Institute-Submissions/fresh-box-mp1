@@ -1,50 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>FreshBox</title>
+  </head>
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-		integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-	</script>
-	<link rel="stylesheet" href="assets/css/style.css">
-	<title>FreshBox</title>
-</head>
+  <body>
+    <!------------------Navigation Bar--------------->
+    <nav class="navbar navbar-nav form-inline">
+      <ul>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Boxes</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Inspire Me</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Get your Free Box!</a>
+        </li>
+      </ul>
+    </nav>
+    <!--------------------//Navigation Bar----------->
 
-<body>
+    <!------------------Main Content----------------->
+    <article class="container">
+      <h2>Our Goal</h2>
+      <p>
+        At FreshBox we understand that it's not easy to fit a healthy diet into
+        a hectic lifestyle. We have designed each box to give you a variety of
+        ingredients to make your life easier.
+      </p>
+    </article>
 
-	<header>
-		<ul class="navbar navbar-nav">
-			<li class="nav-item active">
-				<a href="#" class="nav-link">Home</a></li>
-			<li class="nav-item">
-				<a href="#" class="nav-link">Boxes</a></li>
-			<li class="nav-item">
-				<a href="#" class="nav-link">Inspire Me</a></li>
-			<li class="nav-item">
-				<a href="#" class="nav-link">Get your Free Box!</a></li>
+    <article class="container">
+      <h2>The Environment</h2>
+      <p>
+        We are conscious of the impact we all have on the world so we only use
+        sustainable, ethical farmers and food producers in the country. We are
+        always looking at new, more efficient ways to transport our goods and
+        lower our CO2 emissions, starting from the fields and ending at your
+        door.
+      </p>
+    </article>
 
-		</ul>
-	</header>
+    <!------------------Main Content----------------->
 
-	<section>
-		<h2>Our Goal</h2>
-		<p>At FreshBox we understand that it's not easy to fit a healthy diet into a hectic lifestyle.
-
-			We have designed each box to give you a variety of ingredients to make your life easier.</p>
-	</section>
-
-	<section>
-		<h2>The Environment</h2>
-		<p>We are conscious of the impact we all have on the world so we only use sustainable, ethical farmers and food
-			producers in the country. We are always looking at new, more efficient ways to transport our goods and lower
-			our CO2 emissions, starting from the fields and ending at your door.</p>
-	</section>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</body>
-
+    <!------------------Boxes images----------------->
+    <div class="box-img-container">
+      <div class="box-images text-center col-12 col-lg-12 col-md-6">
+        <img
+          src="#"
+          alt="variety box"
+          class="rounded mx-auto d-inline-block"
+          style="background-color: blue; height: 125px; width: 125px;"
+        />
+        <img
+          src="#"
+          alt="vege box"
+          class="rounded mx-auto d-inline-block"
+          style="background-color: red; height: 125px; width: 125px;"
+        />
+        <img
+          src="#"
+          alt="protein box"
+          class="rounded mx-auto d-inline-block"
+          style="background-color: green; height: 125px; width: 125px;"
+        />
+        <img
+          src="#"
+          alt="carbs"
+          class="rounded mx-auto d-inline-block"
+          style="background-color: black; height: 125px; width: 125px;"
+        />
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
 </html>
