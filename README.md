@@ -1,39 +1,63 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+FreshBox
 
-Welcome USER_NAME,
+A website providing a place for users to order fresh ingrediants and recipe ideas on a subscription based service. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+FreshBox are environmentally conscious and only use distrubuters who use sustainable farming methods. Reduced use of carbon emissions
+througout the process by using local farms and produce centers. Food is fresh when delivered and never frozen. Also work
+with top end restaurants in the UK.
 
-## Gitpod Reminders
+UX
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+FreshBox is aimed at young business professionals who don't have the time to shop for every meal
+due to work, gym and social life commitments. They want to increase their orders through simplistic and intuitive 
+design, making it easy for the user to order their first trial box without having to search for it and the
+website.
 
-`python3 -m http.server`
+User 1: Discovered this website using a search engine, has heard of similar companies providing a similar service. 
+I want to see what types of boxes are on offer. 
 
-A blue button should appear to click: *Make Public*,
+This will be achieved by adding the box contents to the landing page. It will show the boxes on offer and that the
+first box is free. 
 
-Another blue button should appear to click: *Open Browser*.
+User 2: Returning user, who hasn't already ordered. I want to order my first box.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+This can be done through the landing page as well.
 
-A blue button should appear to click: *Make Public*,
+User 3: Has already ordered, but wishes to explore what other types of boxes are available to order. 
 
-Another blue button should appear to click: *Open Browser*.
+The other box types can be found in the the Recipes?? tab, likely to be called something else.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+Wireframes to be added to show designs on all of the pages, as well as the mobile/tablet layout designs.
 
-## Updates Since The Instructional Video
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+Features
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Logo will feature throughout the website to encourage brand recognition. 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Sign up form which will give the user access to the newsletter. Another form to allow the user to order 
+a sample box of their choice. Choice will be of 4 different boxes, including 5th option to 'Suprise Me.
+Images of fresh fruit and veg, nuts, healthy food etc, depending on the box choice. 
+Each field will be mandatory to reduce the amount of incorrect data being gathered.
+Confirmation message will also appear after the user has placed an order. 
+Drop down selection on the 'recipes' page so the user can do to each specific box type if they wish.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+Features Left to Implement
+Create basket and ordering system allowing the user to chose how many boxes they want to receive each week.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Technologies Used
+HTML5 - Used for the base coding of the website
+CSS3 - Used to style the webpages and their content
+GitHub - Used to save the word within a repisitory
+GitPod - Used to write and implement the coding.
 
---------
+Testing
 
-Happy coding!
+Deployment
+
+Credits
+Content
+Media
+Acknowledgements
+
+
+
