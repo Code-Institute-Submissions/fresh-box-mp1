@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Gayathri&display=swap');
+
+body {
+    font-family: 'Gayathri', sans-serif;
+    margin: 0;
+}
+
+.background-home-image {
+    background-image: url(../images/background-home-image.jpg);
+    background-repeat: no-repeat;  
+    background-size: cover;
+    height: 75vh;
+    padding-bottom: 200px;
+}
+.nav-item {
+    padding-top: 20px;
+    padding-right: 25px;
+}
