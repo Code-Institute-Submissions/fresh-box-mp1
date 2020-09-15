@@ -58,6 +58,7 @@ Credits
 Content
 Media
 Acknowledgements
+w3schools.com for code to set background pic text in the center
 
 
 
