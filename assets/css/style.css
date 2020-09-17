@@ -59,15 +59,9 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.social-logos {
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding-top: 10px;
-  padding-right: 10px;
-}
-
 .social-logo {
+  bottom: 0;
+  right: 0;
   color: #36a72b;
   font-size: 120%;
 }
@@ -80,59 +74,77 @@ hr {
 h2 {
   font-family: Gayathri, sans-serif;
 }
+
 p {
   font-size: 20px;
   font-family: Roboto, sans-serif;
 }
 
 .container {
+  position: relative;
   padding: 50px 50px;
   width: 75%;
-  text-align: center
+  text-align: center;
 }
-
-.column {
-  float: left;
-  width: 25%;
-  padding: 5px;
-}
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-
-.box-pic {
-  display: inline;
-  opacity: 1;
-  transition: 0.5s ease;
-  backface-visibility: hidden;
+.box-images {
+  position: relative;
 }
 
 .box-text {
-  transition: 0.5s ease;
-  opacity: 0;
-  position: inherit;
+  position: absolute;
+  color: white;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
+  z-index: 1;
 }
 
-.box-images:hover .box-pic {
-  opacity: 0.3;
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+}
+
+.box-images:hover .overlay {
+  visibility: visible;
 }
 
 .box-images:hover .box-text {
-  opacity: 1;
+  visibility: hidden;
 }
 
-.text {
+.overlay-text {
+    padding: 5px 15px;
+}
+
+footer {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
   background-color: #4caf50;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
+  height: 160px;
+  margin: 0;
+}
+
+p .footer-text {
+  font-size: 20px;
+}
+
+.social-logo-footer {
+  display: inline;
+  position: inherit;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  color: #f4f9f4;
+  font-size: 120%;
 }
