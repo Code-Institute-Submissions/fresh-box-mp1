@@ -6,8 +6,8 @@ body {
   text-align: center;
 }
 
-.background-home-image {
-  background-image: url(../images/background-home-image.jpg);
+.hero-image {
+  background-image: url(../images/hero-image.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 100%;
@@ -35,6 +35,7 @@ body {
   border-width: 5px;
   border-style: double;
   padding: 10px 10px 0;
+  border-radius: 3rem;
 }
 
 .hero-image-title {
@@ -52,7 +53,7 @@ body {
   text-align: center;
 }
 
-.centered {
+.hero-text-centered {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -86,8 +87,26 @@ p {
   width: 75%;
   text-align: center;
 }
+
+.column {
+  float: left;
+  padding: 5px;
+}
+
+
+.box-image-container {
+  position: relative;
+  justify-content: center; 
+}
+
+
 .box-images {
   position: relative;
+  width: 100%;
+}
+
+.border-radius {
+    border-radius: 3rem;
 }
 
 .box-text {
@@ -112,6 +131,7 @@ p {
   align-items: center;
   justify-content: center;
   visibility: hidden;
+  border-radius: 3rem;
 }
 
 .box-images:hover .overlay {
@@ -123,8 +143,10 @@ p {
 }
 
 .overlay-text {
-    padding: 5px 15px;
+  padding: 5px 15px;
 }
+
+/* Footer */
 
 footer {
   padding-right: 0;
