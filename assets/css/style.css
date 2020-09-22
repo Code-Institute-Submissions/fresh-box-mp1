@@ -1,13 +1,24 @@
-@import url("https://fonts.googleapis.com/css2?family=Gayathri&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gayathri&family=Roboto&displayy=Amaranth&display=swap");
 
 body {
   margin: 0;
+  padding: 0;
   background-color: #f4f9f4;
   text-align: center;
 }
 
+/* Hero Image */
+
 .hero-image {
   background-image: url(../images/hero-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: 75vh;
+  position: relative;
+}
+.hero-boxes {
+  background-image: url(../images/hero-boxes.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 100%;
@@ -27,7 +38,7 @@ body {
 .nav-item {
   color: #36a72b;
   font-size: 150%;
-  padding: 20px 40px 0;
+  padding: 20px 20px 0;
 }
 
 .hero-image-text-container {
@@ -42,14 +53,14 @@ body {
   font-size: 4em;
   color: #f4f9f4;
   text-align: center;
-  font-family: Gayathri, sans-serif;
+  font-family: "Gayathri", sans-serif;
 }
 
 .hero-image-text {
   font-size: 2.5em;
   color: #f4f9f4;
   padding-top: 20px;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   text-align: center;
 }
 
@@ -63,8 +74,16 @@ body {
 .social-logo {
   bottom: 0;
   right: 0;
-  color: #36a72b;
+  color: #76d46d;
   font-size: 120%;
+}
+
+.social-logo:hover {
+  color: #36a72b;
+}
+
+p {
+  line-height: 1.6;
 }
 
 hr {
@@ -72,45 +91,58 @@ hr {
   border-top: 8px dotted #36a72b;
 }
 
+.h2,
 h2 {
-  font-family: Gayathri, sans-serif;
+  font-family: "Gayathri", sans-serif;
+  font-size: 1.75rem;
 }
 
-p {
-  font-size: 20px;
-  font-family: Roboto, sans-serif;
+.text-link {
+  color: #36a72b;
+}
+
+.text-link:hover {
+  color: #35a72b9a;
+  text-decoration: none;
+}
+
+.main-content {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+.content-icon {
+  height: 100px;
+  width: auto;
+  padding-bottom: 15px;
 }
 
 .container {
   position: relative;
-  padding: 50px 50px;
+  padding: 50px 30px;
   width: 75%;
   text-align: center;
 }
 
-.column {
-  float: left;
-  padding: 5px;
-}
-
-
 .box-image-container {
   position: relative;
-  justify-content: center; 
+  justify-content: center;
 }
-
 
 .box-images {
   position: relative;
   width: 100%;
+  padding: 5px;
 }
 
 .border-radius {
-    border-radius: 3rem;
+  border-radius: 3rem;
 }
 
 .box-text {
+  font-family: "Roboto", sans-serif;
   position: absolute;
+  font-size: 1.75rem;
   color: white;
   top: 50%;
   left: 50%;
@@ -123,6 +155,8 @@ p {
   top: 0;
   left: 0;
   color: white;
+  font-size: 1.25rem;
+  font-family: "Gayathri", sans-serif;
   background: rgba(0, 0, 0, 0.5);
   width: 100%;
   height: 100%;
@@ -146,20 +180,42 @@ p {
   padding: 5px 15px;
 }
 
+/* Customer Reviews */
+
+.reviews {
+  align-items: center;
+}
+
+.review-image {
+  height: 250px;
+  width: auto;
+}
+
+.review-text {
+  padding: 10px;
+}
+
 /* Footer */
 
 footer {
-  padding-right: 0;
-  padding-left: 0;
-  margin-right: auto;
-  margin-left: auto;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   background-color: #4caf50;
-  height: 160px;
-  margin: 0;
+  color: #f4f9f4;
+  font-size: 16px;
 }
 
-p .footer-text {
-  font-size: 20px;
+.footer-text {
+  font-size: 16px;
+  color: #f4f9f4;
+  text-align: left;
+}
+
+.opening-info {
+  text-align: left;
+  width: 100%;
+  height: auto;
 }
 
 .social-logo-footer {
@@ -169,4 +225,29 @@ p .footer-text {
   padding-right: 10px;
   color: #f4f9f4;
   font-size: 120%;
+}
+
+.social-logo-footer:hover {
+  color: #f4f9f4a1;
+}
+
+.footer-link {
+  color: rgba(255, 255, 255, 0.712);
+}
+
+.footer-link:hover {
+  color: #f4f9f4;
+  text-decoration: none;
+}
+
+.office-hours {
+  list-style: none;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+  }
 }
