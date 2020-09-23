@@ -7,6 +7,14 @@ body {
   text-align: center;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
+header {
+    background-position: center;
+}
+
 .freshbox-logo {
   width: 60px;
   height: 60px;
@@ -54,7 +62,6 @@ body {
 }
 
 .nav-item {
-  color: #36a72b;
   font-size: 150%;
   padding: 20px 20px 0;
 }
@@ -102,10 +109,6 @@ body {
   color: #36a72b;
 }
 
-p {
-  line-height: 1.6;
-}
-
 hr {
   width: 50px;
   border-top: 8px dotted #36a72b;
@@ -127,6 +130,7 @@ h2 {
 }
 
 .main-content {
+    line-height: 1.8rem;
   font-size: 16px;
   font-family: "Roboto", sans-serif;
 }
@@ -224,6 +228,7 @@ footer {
   background-color: #4caf50;
   color: #f4f9f4;
   font-size: 16px;
+  background-position: center;
 }
 
 .footer-text {
