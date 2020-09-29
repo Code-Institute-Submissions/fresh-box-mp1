@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Gayathri&family=Roboto&displayy=Amaranth&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
 
 body {
   margin: 0;
@@ -120,9 +121,12 @@ hr {
 .h2,
 h2 {
   font-family: "Gayathri", sans-serif;
-  font-size: 1.75rem;
+  font-size: 1.8rem;
 }
 
+.review-text{
+    font-family: 'Lora', sans-serif;
+}
 .text-link {
   color: #36a72b;
 }
@@ -133,9 +137,13 @@ h2 {
 }
 
 .main-content {
-  line-height: 1.8rem;
-  font-size: 16px;
+  line-height: 2rem;
+  font-size: 15px;
   font-family: "Roboto", sans-serif;
+}
+
+.boxes-disclosure {
+    font-size: 0.8rem;
 }
 
 .content-icon {
@@ -150,6 +158,8 @@ h2 {
   width: 75%;
   text-align: center;
 }
+
+/*Box Images*/
 
 .box-image-container {
   position: relative;
@@ -222,7 +232,7 @@ h2 {
   padding: 10px;
 }
 
-/*Form*/
+/*Order Form*/
 
 .btn-primary {
     color: #fff;
@@ -235,14 +245,20 @@ h2 {
     background-color: #68b86b;
 }
 
+/* Form Row */
 .order-form {
   position: absolute;
   width: 200px;
   height: 100px;
   border: 3px solid #73AD21;
-  top: 20%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.form-row {
+    padding: 10px 0;
+
 }
 
 /* Footer */
