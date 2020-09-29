@@ -117,6 +117,8 @@
         </div>
       </nav>
     </header>
+
+    <!--Hero Image-->
     <div class="hero-order">
       <div class="opaque-overlay">
         <div class="hero-image-text-container hero-text-centered">
@@ -125,6 +127,8 @@
         </div>
       </div>
     </div>
+
+    <!--Order Form-->
     <div class="container">
       <form>
         <div class="form-row">
@@ -154,7 +158,7 @@
             <input
               type="email"
               class="form-control"
-              id="inputEmail4"
+              id="inputEmail"
               placeholder="Email Address"
               required
             />
@@ -190,7 +194,7 @@
               class="form-control"
               placeholder="Choose your box!"
               required
-            ><option selected>Choose your box...</option>
+              ><option selected>Choose your box...</option>
               <option>Variety Box</option>
               <option>Vege Box</option>
               <option>Protein Box</option>
@@ -199,12 +203,64 @@
           </div>
         </div>
         <div class="form-group">
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Anything else we need to know? Allergies or dietary requirements..."></textarea>
-  </div>
-        <div class="form-group"></div>
-        <button type="submit" class="btn btn-primary">
-          Confirm Your Order!
-        </button>
+          <textarea
+            class="form-control"
+            id="Textarea"
+            rows="3"
+            placeholder="Anything else we need to know? Allergies or dietary requirements..."
+          ></textarea>
+        </div>
+        <div class="form-group">
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-toggle="modal"
+            data-target="#orderConfirm"
+          >
+            Order Now!
+          </button>
+        </div>
+        <!-- Button trigger modal -->
+
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="orderConfirm"
+          tabindex="-1"
+          aria-labelledby="orderConfirmLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="orderConfirmLabel">
+                  Order Confirmed!
+                </h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                Thank you for your order, you will receive a confirmation email
+                shortly.
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
       </form>
     </div>
     <footer>

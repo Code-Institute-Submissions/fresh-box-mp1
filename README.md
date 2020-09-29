@@ -59,8 +59,6 @@ website.
 
 - Log in / Sign up system to create.
 
--
-
 ### Technologies Used
 
 #### Below is a list of the languages and techonology used to create FreshBox:
@@ -87,9 +85,11 @@ A number of tests were completed throughout the design and build process. Below 
 I researched a number of websites to create and add features into FreshBox. Below is a list with an example of why they were used.
 
 - https://w3schools.com - For code reference.
-- https://dillinger.io/ used to edit the README.md file.
-- https://pexels.com used for hero images and food images.
-- https://flaticon.com used for the icons found on index.html and boxes.html. Link also displayed on the footer a requested by the website.
-- https://hellofresh.co.uk inspiration for the FreshBox business idea.
+- https://stackoverflow.com - code reference.
+- https://dillinger.io/ - used to edit the README.md file.
+- https://pexels.com - used for hero images and food images.
+- https://flaticon.com - used for the icons found on index.html and boxes.html. Link also displayed on the footer a requested by the website.
+- https://hellofresh.co.uk - inspiration for the FreshBox business idea.
+
 
 All content was written by myself.
