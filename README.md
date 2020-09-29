@@ -17,25 +17,25 @@ website.
 
 #### User 1:
 
-Discovered this website using a search engine, has heard of similar companies providing a similar service.
-I want to see what types of boxes are on offer.
+> Discovered this website using a search engine, has heard of similar companies providing a similar service.
+> I want to see what types of boxes are on offer.
 
-This will be achieved by adding the box contents to the landing page. It will show the boxes on offer and that the
-first box is free.
+> This will be achieved by adding the box contents to the landing page. It will show the boxes on offer and that the
+> first box is free.
 
 #### User 2:
 
-Returning user, who hasn't already ordered. I want to order my first box.
+> Returning user, who hasn't already ordered. I want to order my first box.
 
-This can be done through the landing page as well.
+> This can be done through the landing page as well.
 
 #### User 3:
 
-Has already ordered, but wishes to explore what other types of boxes are available to order.
+> Has already ordered, but wishes to explore what other types of boxes are available to order.
 
-The other box types can be found in the the Recipes?? tab, likely to be called something else.
+> The other box types can be found in the the Recipes?? tab, likely to be called something else.
 
-Wireframes to be added to show designs on all of the pages, as well as the mobile/tablet layout designs.
+> Wireframes to be added to show designs on all of the pages, as well as the mobile/tablet layout designs.
 
 ### Features
 
@@ -72,18 +72,24 @@ Wireframes to be added to show designs on all of the pages, as well as the mobil
 - Bootstrap - Grid layouts and form used. Also used to assist with the responsive design
 
 ### Testing
+
 A number of tests were completed throughout the design and build process. Below are the details of the testing conducted and completed:
 
-
+| Test                 | How                                                              | Result                                                                                      | Fix                                                                         |
+| -------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| index.html links     | Click each link displayed on page                                | Some links worked, those located in the content did not.                                    | Located incorrect links and set correct href. Retested and worked           |
+| boxes.html links     | Click each link displayed on page                                | All links worked and redirected correctly. However links were missing from the boxes images | Anchor tags were added to each box image to take the user to the boxes page |
+| order-now.html links | Click each link displayed on page                                | All links worked correctly                                                                  | N/A                                                                         |
+| Responsive design    | Using the chrome developer tool to change resolution of the page | Content moved and responded as expected, no overlapping or loss of content                  | N/A                                                                         |
 
 ### Acknowledgements:
 
-I researched a number of wesites to create and add features into FreshBox. Below is a list with an example of why they were used.
+I researched a number of websites to create and add features into FreshBox. Below is a list with an example of why they were used.
 
 - https://w3schools.com - For code reference.
 - https://dillinger.io/ used to edit the README.md file.
 - https://pexels.com used for hero images and food images.
-- https://flaticon.com used for the icons found on index.html and boxes.html. Link also displayed on the footer.
+- https://flaticon.com used for the icons found on index.html and boxes.html. Link also displayed on the footer a requested by the website.
 - https://hellofresh.co.uk inspiration for the FreshBox business idea.
 
 All content was written by myself.

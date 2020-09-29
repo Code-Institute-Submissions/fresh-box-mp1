@@ -24,7 +24,7 @@ header {
 /* Hero Images */
 
 .hero-image {
-  background-image: url(../images/hero-image.jpg);
+  background-image: url(../images/hero-index.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -120,7 +120,7 @@ hr {
 
 .h2,
 h2 {
-  font-family: "Gayathri", sans-serif;
+  font-family: "Lora", sans-serif;
   font-size: 1.8rem;
 }
 
