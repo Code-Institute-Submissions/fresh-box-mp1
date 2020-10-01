@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Gayathri&family=Roboto&displayy=Amaranth&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap");
 
 body {
   margin: 0;
@@ -122,10 +122,16 @@ hr {
 h2 {
   font-family: "Lora", sans-serif;
   font-size: 1.8rem;
+  padding-bottom: 10px;
 }
 
-.review-text{
-    font-family: 'Lora', sans-serif;
+.h5, h5 {
+    font-size: 1.25rem;
+    padding-top: 10px;
+}
+
+.review-text {
+  font-family: "Lora", sans-serif;
 }
 .text-link {
   color: #36a72b;
@@ -143,7 +149,7 @@ h2 {
 }
 
 .boxes-disclosure {
-    font-size: 0.8rem;
+  font-size: 0.8rem;
 }
 
 .content-icon {
@@ -235,14 +241,13 @@ h2 {
 /*Order Form*/
 
 .btn-primary {
-    color: #fff;
-    background-color: #4caf50;
-    border-color: #2b9e2f;
+  color: #fff;
+  background-color: #4caf50;
+  border-color: #2b9e2f;
 }
 
 .btn-primary:hover {
-    
-    background-color: #68b86b;
+  background-color: #68b86b;
 }
 
 /* Form Row */
@@ -250,15 +255,26 @@ h2 {
   position: absolute;
   width: 200px;
   height: 100px;
-  border: 3px solid #73AD21;
+  border: 3px solid #73ad21;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .form-row {
-    padding: 10px 0;
+  padding: 10px 0;
+}
 
+/* Modal */
+
+.btn-secondary {
+  color: #fff;
+  background-color: #4caf50;
+  border-color: #2b9e2f;
+}
+
+.btn-secondary:hover {
+  background-color: #68b86b;
 }
 
 /* Footer */
@@ -309,6 +325,18 @@ footer {
 
 .office-hours {
   list-style: none;
+}
+
+.copywrite p {
+  font-size: 14px;
+  background-color: black;
+  color: #f4f9f4;
+  height: 50px;
+  width: 100%;
+  padding-top: 10px;
+  padding-right: 10px;
+  margin-bottom: 0;
+  text-align: right;
 }
 
 @media (min-width: 992px) {
