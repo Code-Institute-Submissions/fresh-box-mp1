@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Gayathri&family=Roboto&displayy=Amaranth&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap");
 
-
 /*General pages styles */
 
 body {
@@ -53,7 +52,10 @@ h5 {
 /* Nav Bar*/
 
 header {
-  background-position: center;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
 }
 
 .freshbox-logo {
@@ -61,20 +63,18 @@ header {
   height: 80px;
 }
 
-.sticky-header {
-  position: sticky;
-  top: 0;
-  z-index: 1;
+.nav-item {
+  font-size: 140%;
+  text-align: left;
+  padding-left: 20px;
 }
 
-.nav-item {
-  font-size: 180%;
-  padding-left: 20px;
-  text-align: center;
+.navbar {
+  background-color: #f4f9f4;
 }
 
 .header-logo {
-    padding-right: 40px;
+  padding-right: 40px;
 }
 .social-logo {
   text-align: center;
@@ -357,6 +357,10 @@ footer {
   padding-right: 10px;
   margin-bottom: 0;
   text-align: center;
+}
+
+.copywrite .css-validator {
+  float: right;
 }
 
 @media (min-width: 992px) {
