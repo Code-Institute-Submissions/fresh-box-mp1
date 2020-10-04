@@ -33,7 +33,7 @@ website.
 
 > Has already ordered, but wishes to explore what other types of boxes are available to order.
 
-> The other box types can be found in the the Recipes?? tab, likely to be called something else.
+> The other box types can be found on the boxes webpage, as well as sort description on the index page.
 
 > Wireframes to be added to show designs on all of the pages, as well as the mobile/tablet layout designs.
 
@@ -51,6 +51,10 @@ website.
 
 - Information will appear when a user hovers over the images on the box page.
 
+- Collapsing Nav Bar, reacting to different screen resolutions.
+
+- Links to social media accounts owned by FreshBox.
+
 ### Features Left to Implement
 
 - Create basket and ordering system allowing the user to chose how many boxes they want to receive each week.
@@ -61,13 +65,12 @@ website.
 
 ### Technologies Used
 
-#### Below is a list of the languages and techonology used to create FreshBox:
-
 - HTML5 - Used for the base coding of the website
 - CSS3 - Used to style the webpages and their content
 - GitHub - Used to save the word within a repisitory
 - GitPod - Used to write and implement the coding
 - Bootstrap - Grid layouts and form used. Also used to assist with the responsive design
+- Balsamiq - Used to create wire frame designs in the planning stage.
 
 ### Testing
 
@@ -91,5 +94,4 @@ I researched a number of websites to create and add features into FreshBox. Belo
 - https://flaticon.com - used for the icons found on index.html and boxes.html. Link also displayed on the footer a requested by the website.
 - https://hellofresh.co.uk - inspiration for the FreshBox business idea.
 
-
-All content was written by myself.
+All of the content was written by myself.

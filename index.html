@@ -19,7 +19,8 @@
   </head>
 
   <body>
-    <!------------------FreshBox Logo and Nav Bar--------------->
+    <!--FreshBox Logo and Nav Bar-->
+    <!--https://getbootstrap.com/docs/4.5/components/navbar/ -->
     <header>
       <nav class="navbar navbar-expand-lg navbar-light">
         <a href="index.html"
@@ -42,8 +43,6 @@
 
         <div class="collapse navbar-collapse" id="navbarDropdown">
           <ul class="navbar-nav container-fluid">
-            <li></li>
-
             <li class="nav-item">
               <a href="index.html" class="nav-link active">Home</a>
             </li>
@@ -53,7 +52,7 @@
             <li class="nav-item">
               <a href="order-now.html" class="nav-link">Order Now!</a>
             </li>
-            <ul class="header-logo">
+                <li><ul>
               <li class="list-inline-item">
                 <a
                   class="social-logo"
@@ -115,11 +114,12 @@
                 </a>
               </li>
             </ul>
+                </li>
           </ul>
         </div>
       </nav>
     </header>
-    <!--------------------Hero Image and Text----------->
+    <!--Hero Image and Text-->
 
     <div class="hero-image">
       <div class="opaque-overlay">
@@ -130,7 +130,7 @@
       </div>
     </div>
 
-    <!------------------Main Content----------------->
+    <!--Main Content-->
 
     <div class="container">
       <h2 class="h2">Our Goal</h2>
@@ -177,7 +177,7 @@
     </div>
     <hr />
 
-    <!------------------Box Info----------------->
+    <!--Box Info-->
     <div class="container">
       <h2 class="h2">Our Boxes</h2>
       <img
@@ -199,7 +199,7 @@
       </p>
     </div>
 
-    <!------------------Boxes images----------------->
+    <!--Boxes images-->
     <div class="container">
       <div class="row box-image-container mx-auto">
         <div class="column">
@@ -284,12 +284,10 @@
 
     <!--Customer Reviews-->
     <div class="container">
-      <div class="container">
-        <h2 class="h3">Dont take our word for it!</h2>
-        <p class="main-content">
-          Here's a few words from our existing customers...
-        </p>
-      </div>
+      <h2 class="h3">Dont take our word for it!</h2>
+      <p class="main-content">
+        Here's a few words from our existing customers...
+      </p>
       <div class="row">
         <div class="col">
           <div class="reviews">
@@ -298,7 +296,7 @@
               alt="male"
               class="border-radius review-image"
             />
-            <span class="review-text">
+            <div class="review-text">
               <h5><strong>Amazing variety</strong></h5>
               <p>
                 The protein box had got such a great selection of high in
@@ -308,7 +306,7 @@
                 ⭐⭐⭐⭐⭐
               </p>
               <p>- Aaron</p>
-            </span>
+            </div>
           </div>
         </div>
         <div class="col">
@@ -318,18 +316,18 @@
               alt="male"
               class="border-radius review-image"
             />
-            <span class="review-text">
+            <div class="review-text">
               <h5><strong>Love the Vege Box</strong></h5>
               <p>
                 I've only recently started being a vegetarian and I've found it
                 hard to know what sort of things to cook together and what works
                 well. This takes all of that stress away and the flavours are
-                ingredible!
+                incredible!
                 <br />
                 ⭐⭐⭐⭐⭐
               </p>
               <p>- Claudia</p>
-            </span>
+            </div>
           </div>
         </div>
       </div>
@@ -362,11 +360,11 @@
           </div>
 
           <div class="col-sm">
+            <p class="footer-text">
+              If you would like to find out more about we do, then follow our
+              social media pages for weekly updates.
+            </p>
             <ul>
-              <p class="footer-text">
-                If you would like to find out more about we do, then follow our
-                social media pages for weekly updates.
-              </p>
               <li class="list-inline-item">
                 <a
                   class="social-logo-footer"
@@ -446,18 +444,19 @@
       </div>
     </footer>
     <div class="copywrite">
-      
-        <p>Designed and created by Nathan Highams 2020
-      
-        <span class="css-validator"><a href="http://jigsaw.w3.org/css-validator/check/referer">
-          <img
-            style="border: 0; width: 88px; height: 31px;"
-            src="http://jigsaw.w3.org/css-validator/images/vcss"
-            alt="Valid CSS!"
-          />
-        </a>
+      <p>
+        Designed and created by Nathan Highams 2020
+
+        <span class="css-validator"
+          ><a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img
+              style="border: 0; width: 88px; height: 31px;"
+              src="https://jigsaw.w3.org/css-validator/images/vcss"
+              alt="Valid CSS!"
+            />
+          </a>
         </span>
-        </p>
+      </p>
     </div>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

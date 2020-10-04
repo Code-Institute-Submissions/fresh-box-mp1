@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Gayathri&family=Roboto&displayy=Amaranth&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
 
 /*General pages styles */
 
@@ -9,85 +10,8 @@ body {
   background-color: #f4f9f4;
   text-align: center;
 }
-hr {
-  width: 50px;
-  border-top: 8px dotted #36a72b;
-}
-
-.h2,
-h2 {
-  font-family: "Lora", sans-serif;
-  font-size: 1.8rem;
-  padding-bottom: 10px;
-}
-
-.h5,
-h5 {
-  font-size: 1.25rem;
-  padding-top: 10px;
-}
-
-.review-text {
-  font-family: "Lora", sans-serif;
-}
-.text-link {
-  color: #36a72b;
-}
-
-.text-link:hover {
-  color: #35a72b9a;
-  text-decoration: none;
-}
-
-.main-content {
-  line-height: 2rem;
-  font-size: 15px;
-  font-family: "Roboto", sans-serif;
-}
-
-::-webkit-scrollbar {
-  display: none;
-}
-
-/* Nav Bar*/
-
-header {
-  position: fixed;
-  right: 0;
-  left: 0;
-  z-index: 1030;
-}
-
-.freshbox-logo {
-  width: 80px;
-  height: 80px;
-}
-
-.nav-item {
-  font-size: 140%;
-  text-align: left;
-  padding-left: 20px;
-}
-
-.navbar {
-  background-color: #f4f9f4;
-}
-
-.header-logo {
-  padding-right: 40px;
-}
-.social-logo {
-  text-align: center;
-  color: #76d46d;
-  font-size: 140%;
-}
-
-.social-logo:hover {
-  color: #36a72b;
-}
 
 /* Hero Images */
-
 .hero-image {
   background-image: url(../images/hero-index.jpg);
   background-repeat: no-repeat;
@@ -120,7 +44,6 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .opaque-overlay {
   position: absolute;
   top: 0;
@@ -162,8 +85,45 @@ header {
   transform: translate(-50%, -50%);
 }
 
-.boxes-disclosure {
-  font-size: 0.8rem;
+/* General Styles */
+hr {
+  width: 50px;
+  border-top: 8px dotted #36a72b;
+}
+
+.h2,
+h2 {
+  font-family: "Lora", sans-serif;
+  font-size: 1.8rem;
+  padding-bottom: 10px;
+}
+
+.h5,
+h5 {
+  font-size: 1.25rem;
+  padding-top: 10px;
+}
+
+.review-text {
+  font-family: "Lora", sans-serif;
+}
+
+.text-link {
+  color: #36a72b;
+}
+
+.text-link:hover {
+  color: #35a72b9a;
+  text-decoration: none;
+}
+
+.main-content {
+  line-height: 2rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 .content-icon {
@@ -174,12 +134,50 @@ header {
 
 .container {
   position: relative;
-  padding: 50px 30px;
+  padding: 40px 30px;
   width: 75%;
   text-align: center;
 }
 
-/*Box Images*/
+/* Nav Bar*/
+
+header {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.freshbox-logo {
+  height: 80px;
+  width: auto;
+}
+
+.nav-item {
+  font-size: 140%;
+  text-align: center;
+  padding-left: 20px;
+}
+
+.navbar {
+  background-color: #f4f9f4;
+}
+
+.social-logo {
+  text-align: center;
+  color: #76d46d;
+  font-size: 140%;
+}
+
+.social-logo:hover {
+  color: #36a72b;
+}
+
+/*Boxes*/
+
+.box-content-text {
+  padding-bottom: 30px;
+}
 
 .box-image-container {
   position: relative;
@@ -197,23 +195,24 @@ header {
 }
 
 .box-text {
-  font-family: "Roboto", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   position: absolute;
   font-size: 1.75rem;
-  color: white;
+  color: #f4f9f4;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
+  font-weight: bold;
 }
 
 .overlay {
   position: absolute;
   top: 0;
   left: 0;
-  color: white;
+  color: #f4f4f4;
   font-size: 1.25rem;
-  font-family: "Gayathri", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   background: rgba(0, 0, 0, 0.5);
   width: 100%;
   height: 100%;
@@ -237,19 +236,20 @@ header {
   padding: 5px 15px;
 }
 
+.boxes-disclosure {
+  font-size: 0.8rem;
+}
+
 /* Customer Reviews */
 
 .reviews {
   align-items: center;
+  padding-bottom: 10px;
 }
 
 .review-image {
   height: 250px;
   width: auto;
-}
-
-.review-text {
-  padding: 10px;
 }
 
 /*Order Form*/
@@ -276,7 +276,7 @@ header {
 }
 
 .form-row {
-  padding: 10px 0;
+  padding: 5px 0;
 }
 
 /* Modal */

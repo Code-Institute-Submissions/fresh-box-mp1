@@ -19,7 +19,8 @@
   </head>
 
   <body>
-    <!------------------FreshBox Logo and Nav Bar--------------->
+    <!--FreshBox Logo and Nav Bar-->
+    <!--https://getbootstrap.com/docs/4.5/components/navbar/ -->
     <header>
       <nav class="navbar navbar-expand-lg navbar-light">
         <a href="index.html"
@@ -42,8 +43,6 @@
 
         <div class="collapse navbar-collapse" id="navbarDropdown">
           <ul class="navbar-nav container-fluid">
-            <li></li>
-
             <li class="nav-item">
               <a href="index.html" class="nav-link">Home</a>
             </li>
@@ -53,73 +52,76 @@
             <li class="nav-item">
               <a href="order-now.html" class="nav-link">Order Now!</a>
             </li>
-            <ul class="header-logo">
-              <li class="list-inline-item">
-                <a
-                  class="social-logo"
-                  target="_blank"
-                  href="https://www.facebook.com/"
-                >
-                  <i class="fa fa-facebook" aria-hidden="true"></i>
-                  <span class="sr-only">Facebook</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a
-                  class="social-logo"
-                  target="_blank"
-                  href="https://twitter.com/"
-                >
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
-                  <span class="sr-only">Twitter</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a
-                  class="social-logo"
-                  target="_blank"
-                  href="https://linkedin.com/"
-                >
-                  <i class="fa fa-linkedin" aria-hidden="true"></i>
-                  <span class="sr-only">LinkedIn</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a
-                  class="social-logo"
-                  target="_blank"
-                  href="https://pinterest.com/"
-                >
-                  <i class="fa fa-pinterest" aria-hidden="true"></i>
-                  <span class="sr-only">Pinterest</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a
-                  class="social-logo"
-                  target="_blank"
-                  href="https://instagram.com/"
-                >
-                  <i class="fa fa-instagram" aria-hidden="true"></i>
-                  <span class="sr-only">Instagram</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a
-                  class="social-logo"
-                  target="_blank"
-                  href="https://youtube.com/"
-                >
-                  <i class="fa fa-youtube" aria-hidden="true"></i>
-                  <span class="sr-only">YouTube</span>
-                </a>
-              </li>
-            </ul>
+            <li>
+              <ul>
+                <li class="list-inline-item">
+                  <a
+                    class="social-logo"
+                    target="_blank"
+                    href="https://www.facebook.com/"
+                  >
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <span class="sr-only">Facebook</span>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    class="social-logo"
+                    target="_blank"
+                    href="https://twitter.com/"
+                  >
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <span class="sr-only">Twitter</span>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    class="social-logo"
+                    target="_blank"
+                    href="https://linkedin.com/"
+                  >
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    <span class="sr-only">LinkedIn</span>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    class="social-logo"
+                    target="_blank"
+                    href="https://pinterest.com/"
+                  >
+                    <i class="fa fa-pinterest" aria-hidden="true"></i>
+                    <span class="sr-only">Pinterest</span>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    class="social-logo"
+                    target="_blank"
+                    href="https://instagram.com/"
+                  >
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <span class="sr-only">Instagram</span>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    class="social-logo"
+                    target="_blank"
+                    href="https://youtube.com/"
+                  >
+                    <i class="fa fa-youtube" aria-hidden="true"></i>
+                    <span class="sr-only">YouTube</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
           </ul>
         </div>
       </nav>
     </header>
 
+    <!--Hero image and overlay-->
     <div class="hero-boxes">
       <div class="opaque-overlay">
         <div class="hero-image-text-container hero-text-centered">
@@ -129,6 +131,7 @@
       </div>
     </div>
 
+    <!--Content paragraph-->
     <div class="container">
       <h2 class="h2">What's in the box?!</h2>
       <img
@@ -147,7 +150,7 @@
         <br />
       </p>
     </div>
-
+    <!--Boxes and description-->
     <div class="container">
       <div class="row">
         <div class="col">
@@ -157,15 +160,15 @@
               alt="male"
               class="border-radius"
             />
-            <span>
-              <h5 class="review-text">The Variety Box</h5>
+            <div class="main-content">
+              <h5>The Variety Box</h5>
               <p>
                 Where to start?! There isn't much out there that won't be in
                 this box at some point. You will be receiving everything from
                 aspargus, sweet potato, wild boar, jerk chicken, quinoa and so
                 much more. <br />
               </p>
-            </span>
+            </div>
           </div>
         </div>
         <div class="col">
@@ -175,18 +178,17 @@
               alt="male"
               class="border-radius"
             />
-            <span>
-              <h5 class="review-text">The Vege Box</h5>
+            <div class="main-content">
+              <h5>The Vege Box</h5>
               <p>
                 For all of those earth loving green fingers out there. You'll
                 get vegetables, nuts, beans and spices to bring it all to life!
               </p>
-            </span>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="container">
+
       <div class="row">
         <div class="col">
           <div class="reviews">
@@ -195,15 +197,15 @@
               alt="male"
               class="border-radius"
             />
-            <span>
-              <h5 class="review-text">The Protein Box</h5>
+            <div class="main-content">
+              <h5>The Protein Box</h5>
               <p>
                 The perfect spotting partner. Looking to beef up or get lean,
                 this box packed full of the muscle repair you need to get those
                 gains. Lentils, chicken, turkey, eggs and nuts, what more do you
                 need?
               </p>
-            </span>
+            </div>
           </div>
         </div>
         <div class="col">
@@ -213,25 +215,23 @@
               alt="male"
               class="border-radius"
             />
-            <span>
-              <h5 class="review-text">The Carbs Box</h5>
+            <div class="main-content">
+              <h5>The Carbs Box</h5>
               <p>
-                Carbs are getting a bad name, so we've made this box to get them
-                back in your good books and will help you find the balance<br />
+                Carbs are gettings a bad name, so we've made this box to get
+                them back in your good books and will help you find the
+                balance<br />
                 It'll have rice, pasta, spinach, avacado, chicken, tomatoes.
               </p>
-            </span>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-    <a href="order-now.html"
-      ><div class="form-group"></div>
-      <button class="btn btn-primary">
-        Order your box!
-      </button>
-    </a>
+    <a class="btn btn-primary" href="order-now.html" role="button">Order Now</a>
+
+    <!--Disclosure on box orders-->
     <div class="container">
       <p class="main-content boxes-disclosure">
         If you have any concerns over the contents of any of the boxes, we have
@@ -239,12 +239,12 @@
           class="text-link"
           href="order-now.html"
         >
-          order now</a
+          <strong> now</strong></a
         >
         page as well.
       </p>
     </div>
-
+    <!--Footer-->
     <footer>
       <div class="container-fluid">
         <div class="row">
@@ -271,11 +271,11 @@
           </div>
 
           <div class="col-sm">
+            <p class="footer-text">
+              If you would like to find out more about we do, then follow our
+              social media pages for weekly updates.
+            </p>
             <ul>
-              <p class="footer-text">
-                If you would like to find out more about we do, then follow our
-                social media pages for weekly updates.
-              </p>
               <li class="list-inline-item">
                 <a
                   class="social-logo-footer"
@@ -339,6 +339,8 @@
             </ul>
           </div>
         </div>
+
+        <!--Freepik acknowledgement-->
         <div class="freepik">
           Icons made by
           <a class="footer-link" href="http://www.freepik.com/" title="Freepik"
@@ -354,19 +356,22 @@
         </div>
       </div>
     </footer>
+
+    <!--copywrite and validator stamp-->
     <div class="copywrite">
-      
-        <p>Designed and created by Nathan Highams 2020
-      
-        <span class="css-validator"><a href="http://jigsaw.w3.org/css-validator/check/referer">
-          <img
-            style="border: 0; width: 88px; height: 31px;"
-            src="http://jigsaw.w3.org/css-validator/images/vcss"
-            alt="Valid CSS!"
-          />
-        </a>
+      <p>
+        Designed and created by Nathan Highams 2020
+
+        <span class="css-validator"
+          ><a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img
+              style="border: 0; width: 88px; height: 31px;"
+              src="https://jigsaw.w3.org/css-validator/images/vcss"
+              alt="Valid CSS!"
+            />
+          </a>
         </span>
-        </p>
+      </p>
     </div>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
