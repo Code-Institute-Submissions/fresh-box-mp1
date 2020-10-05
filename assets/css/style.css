@@ -171,19 +171,21 @@ header {
 }
 
 /*Boxes*/
-.box-content-text {
-  padding-bottom: 30px;
-}
 
 .box-image-container {
   position: relative;
   justify-content: center;
+  width: 80%;
+  height: auto;
 }
 
 .box-images {
   position: relative;
   width: 100%;
-  padding: 5px;
+}
+
+.image-padding {
+    padding: 5px;
 }
 
 .border-radius {
@@ -228,7 +230,7 @@ header {
   visibility: hidden;
 }
 
-.overlay-text {
+.box-overlay-text {
   padding: 5px 15px;
 }
 
@@ -361,4 +363,10 @@ footer {
     -ms-flex-preferred-size: auto;
     flex-basis: auto;
   }
+}
+
+@media (max-width: 620px) {
+    .hero-image-text-container {
+        width: 80%;
+    }
 }
