@@ -18,14 +18,14 @@ website.
 #### User 1:
 
 > Discovered this website using a search engine, has heard of similar companies providing a similar service.
-> I want to see what types of boxes are on offer.
+> I want to see what types of boxes are on offer and I want to learn about the business.
 
 > This will be achieved by adding the box contents to the landing page. It will show the boxes on offer and that the
 > first box is free.
 
 #### User 2:
 
-> Returning user, who hasn't already ordered. I want to order my first box.
+> Returning user who hasn't already ordered. I want to order my first box.
 
 > This can be done through the landing page as well.
 
@@ -47,13 +47,11 @@ website.
 
 - Each field will be mandatory to reduce the amount of incorrect data being gathered.
 
-- Confirmation message will also appear after the user has placed an order.
-
 - Information will appear when a user hovers over the images on the box page.
 
 - Collapsing Nav Bar, reacting to different screen resolutions.
 
-- Links to social media accounts owned by FreshBox.
+- Links to social media accounts.
 
 ### Features Left to Implement
 
@@ -62,6 +60,8 @@ website.
 - Add new boxes when new boxes if and when new boxes are created.
 
 - Log in / Sign up system to create.
+
+- Modal to notify the customer that their order has been requested.
 
 ### Technologies Used
 
