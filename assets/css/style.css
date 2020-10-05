@@ -56,7 +56,7 @@ body {
   border-color: #f4f9f4;
   border-width: 5px;
   border-style: double;
-  padding: 50px 10px 0;
+  padding: 50px 10px 0 10px;
   border-radius: 3rem;
   width: 450px;
   height: 275px;
@@ -150,24 +150,24 @@ header {
 }
 
 .freshbox-logo {
-  height: 80px;
+  height: 60px;
   width: auto;
 }
 
 .nav-item {
-  font-size: 140%;
   text-align: center;
   padding-left: 20px;
 }
 
 .navbar {
   background-color: #f4f9f4;
+  height: auto;
 }
 
 .social-logo {
   text-align: center;
   color: #76d46d;
-  font-size: 140%;
+  font-size: 1rem;
 }
 
 .social-logo:hover {
@@ -309,7 +309,7 @@ footer {
 .footer-text {
   font-size: 16px;
   color: #f4f9f4;
-  text-align: left;
+  text-align: center;
 }
 
 .opening-info {
@@ -372,18 +372,19 @@ footer {
     -ms-flex-preferred-size: auto;
     flex-basis: auto;
   }
-}
+  
+
 
 @media (max-width: 992px) {
   .box-image {
     width: 250px;
     height: auto;
   }
+  .nav-item {
+  font-size: 1rem;
+}
 }
 @media (max-width: 620px) {
-  .hero-image-text-container {
-    width: 80%;
-  }
   .review-image {
     width: 200px;
     height: auto;
@@ -394,14 +395,34 @@ footer {
   .more-info-button {
     display: none;
   }
+  .card {
+    display: none;
+  }
 }
 
 @media (max-width: 480px) {
   .box-overlay-text {
     display: none;
   }
+  .hero-image-text-container {
+      width: 80%;
+  }
+  .hero-image-title {
+  font-size: 3em;
+  color: #f4f9f4;
+  text-align: center;
+  font-family: "Gayathri", sans-serif;
+}
+
+.hero-image-text {
+  font-size: 1.75em;
+  color: #f4f9f4;
+  padding-top: 20px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
 
   .overlay {
-      display: none;
+    display: none;
   }
 }
