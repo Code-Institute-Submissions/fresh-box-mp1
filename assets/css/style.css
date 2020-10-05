@@ -102,8 +102,8 @@ h5 {
   padding-top: 10px;
 }
 
-.review-text {
-  font-family: "Lora", sans-serif;
+.row {
+  margin-left: 0;
 }
 
 .text-link {
@@ -135,6 +135,10 @@ h5 {
   padding: 30px 0;
   width: 75%;
   text-align: center;
+}
+
+.border-radius {
+  border-radius: 3rem;
 }
 
 /* Nav Bar*/
@@ -175,27 +179,23 @@ header {
 .box-image-container {
   position: relative;
   justify-content: center;
-  width: 80%;
+  width: 100%;
   height: auto;
 }
 
 .box-images {
   position: relative;
-  width: 100%;
 }
 
-.image-padding {
-    padding: 5px;
-}
-
-.border-radius {
-  border-radius: 3rem;
+.box-image {
+  padding: 5px;
+  position: relative;
 }
 
 .box-text {
   font-family: "Josefin Sans", sans-serif;
   position: absolute;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   color: #f4f9f4;
   top: 50%;
   left: 50%;
@@ -208,7 +208,7 @@ header {
   position: absolute;
   top: 0;
   left: 0;
-  color: #f4f4f4;
+  color: #f4f9f4;
   font-size: 1.25rem;
   font-family: "Josefin Sans", sans-serif;
   background: rgba(0, 0, 0, 0.5);
@@ -238,10 +238,19 @@ header {
   font-size: 0.8rem;
 }
 
+.card {
+  background-color: #f4f9f4;
+  border: 0;
+}
+
 /* Customer Reviews */
 .reviews {
   align-items: center;
   padding-bottom: 10px;
+}
+
+.review-text {
+  font-family: "Lora", sans-serif;
 }
 
 .review-image {
@@ -251,7 +260,7 @@ header {
 
 /*Order Form*/
 .btn-primary {
-  color: #fff;
+  color: #f4f9f4;
   background-color: #4caf50;
   border-color: #2b9e2f;
 }
@@ -277,7 +286,7 @@ header {
 
 /* Modal */
 .btn-secondary {
-  color: #fff;
+  color: #f4f9f4;
   background-color: #4caf50;
   border-color: #2b9e2f;
 }
@@ -365,8 +374,34 @@ footer {
   }
 }
 
+@media (max-width: 992px) {
+  .box-image {
+    width: 250px;
+    height: auto;
+  }
+}
 @media (max-width: 620px) {
-    .hero-image-text-container {
-        width: 80%;
-    }
+  .hero-image-text-container {
+    width: 80%;
+  }
+  .review-image {
+    width: 200px;
+    height: auto;
+  }
+}
+
+@media (min-width: 480px) {
+  .more-info-button {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .box-overlay-text {
+    display: none;
+  }
+
+  .overlay {
+      display: none;
+  }
 }
