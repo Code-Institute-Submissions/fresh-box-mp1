@@ -76,12 +76,14 @@ website.
 
 A number of tests were completed throughout the design and build process. Below are the details of the testing conducted and completed:
 
-| Test                 | How                                                              | Result                                                                                      | Fix                                                                         |
-| -------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
-| index.html links     | Click each link displayed on page                                | Some links worked, those located in the content did not.                                    | Located incorrect links and set correct href. Retested and worked           |
-| boxes.html links     | Click each link displayed on page                                | All links worked and redirected correctly. However links were missing from the boxes images | Anchor tags were added to each box image to take the user to the boxes page |
-| order-now.html links | Click each link displayed on page                                | All links worked correctly                                                                  | N/A                                                                         |
-| Responsive design    | Using the chrome developer tool to change resolution of the page | Content moved and responded as expected, no overlapping or loss of content                  | N/A                                                                         |
+| Test                 | How                                                              | Result                                                                                         | Fix                                                                                                  |
+| -------------------- | ---------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| index.html links     | Click each link displayed on page                                | Some links worked, those located in the content did not                                        | Located incorrect links and set correct href. Retested and worked                                    |
+| boxes.html links     | Click each link displayed on page                                | All links worked and redirected correctly. However links were missing from the boxes images    | Anchor tags were added to each box image to take the user to the boxes page                          |
+| order-now.html links | Click each link displayed on page                                | All links worked correctly                                                                     | N/A                                                                                                  |
+| Responsive design    | Using the chrome developer tool to change resolution of the page | Content moved and responded as expected, no overlapping or loss of content                     | N/A                                                                                                  |
+| More Info button     | Changing screen resolution size                                  | Content was correctly hidden on resolution change, card was still visable on larger resolution | Added .card rule to @media query to correctly hide content                                           |
+| Hiding content       | Change resolution of the viewport                                | Hero text box was incorrectly staying the same size on smaller resolution                      | Checked the @media css style and saw that a '}' was missing. Added '}' to code, this fixed the issue |
 
 ### Acknowledgements:
 
