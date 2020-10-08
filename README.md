@@ -21,25 +21,25 @@ Designs have been added to show the initial ideas and designs on the FreshBox we
 
 #### User 1:
 
-> Discovered this website using a search engine, has heard of similar companies providing a similar service.
-> I want to see what types of boxes are on offer and I want to learn about the business.
+Discovered this website using a search engine, has heard of similar companies providing a similar service.
 
-> This will be achieved by adding the box contents to the landing page. It will show the boxes on offer and that the
-> first box is free.
+- I want to see what types of boxes are on offer and I want to learn about the business.
+
+- This will be achieved by adding the box contents to the landing page. It will show the boxes on offer and that the first box is free.
 
 #### User 2:
 
-> Returning user who hasn't already ordered. I want to order my first box.
+- Returning user who hasn't already ordered. I want to order my first box.
 
-> This can be done through the landing page as well.
+- This can be done through the landing page as well.
 
 #### User 3:
 
-> Has already ordered, but wishes to explore what other types of boxes are available to order.
+- Has already ordered, but wishes to explore what other types of boxes are available to order.
 
-> The other box types can be found on the box’s webpage, as well as sort description on the index page.
+- The other box types can be found on the box’s webpage, as well as sort description on the index page.
 
-### Features
+## Features
 
 - Logo will feature throughout the website to encourage brand recognition, located at the top left of each page.
 
@@ -91,6 +91,7 @@ A number of tests were completed throughout the design and build process. Below 
 | Form submission      | Enter details into order-now form and click 'Order Now' button   | Data was not sent correctly and the webpage was only refreshed                                 | Added code into form tag to gather and display correct data                                          |
 | Form submission 2    | Enter details into order-now form and click 'Order Now' button   | Data was sent correctly, however not on a new webpage                                          | Added code to open new webpage when 'Order Now' button is clicked                                    |
 | Alt Text on images   | Search each 'alt=' and ensure they correctly describe the image  | Several alt text was incorrect                                                                 | Change the alt text to describe the image                                                            |
+| Live Website         | Set up through GitHub Pages                                      | Images were not displaying correctly                                                           | File location was set incorrectly. '/' was removed                                                    |
 
 ## Deployment
 
