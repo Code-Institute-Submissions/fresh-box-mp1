@@ -17,28 +17,25 @@ website.
 
 #### User 1:
 
-Discovered this website through adveritising, has heard of similar companies providing similar services.
+User has discovered this website through adveritising, and is looking to use a food delivery service. They are aware of other services, but has come across this site. They are a desktop user.
 
-- New user, wants to see what types of boxes are on offer and I want to learn about the business, what their goals are and what type of product they offer.
+- This will be achieved by adding the box contents to the landing page. They are shown a bright, colourful display of healthy food, as well as the company name and slogan.
 
-- This will be achieved by adding the box contents to the landing page. It will show the boxes on offer and that the first box is free.
-
+- They see the first paragraph and is drawn to the word FREE, as the design makes it appear bold to the user. This is also next to the word 'here' in a different colour, which leads them straight to the order page, encouraging orders.
 
 ![User 1 screenshot of index page](/screenshots/user-1-screenshot.png)
 
-This is the first page the user sees. It shows the business goals, their environment concern and a brief description of the food boxes they provide.
-
+This is the first page the user sees. It shows the business goals, their environment concern and a brief description of the food boxes they provide. AS they are a desktop user, they are able to see brief details of the box, and if they click onto a box they will be taken to the boxes page. 
 
 #### User 2:
 
-- Mobile User. Returning user who hasn't already ordered and wants to explore the box contents from the landing page.
+- Mobile User. A returning user who hasn't already ordered and wants to explore the box contents from the landing page again before they make a decision on whether they want to order or not.
 
-- The landing page shows a short description of the box contents via a more info button. The button only displays on the lower resolution screens.
-
+- The landing page shows a short description of the box contents via a more info button. The button only displays on the lower resolution screens. They can then be taken to the boxes page where more information on the box contents is given. They can then navigate to the order now page and easily fill out the form. On each page there is a link to get to the boxes page, or the order now page.
 
 ![User 2 screenshot of index page boxes](/screenshots/user-2-screenshot.png)
 
-As the majority of users are using mobiles or tablets to view webpages, it is important to provide ways in which they can view the same content as desktop users. When a resolution size reaches a certain point. The More Info button will show them the box info.
+As the majority of users are using mobiles or tablets to view webpages, it is important to provide ways in which they can view the same content as desktop users. When a resolution size reaches a certain point. The More Info button will show them the box info. This can be deactivated to regain real estate. 
 
 #### User 3:
 
@@ -48,9 +45,9 @@ As the majority of users are using mobiles or tablets to view webpages, it is im
 
 ![User 2 screenshot of index page boxes](/screenshots/user-2-screenshot.png)
 
-This is the footer at the bottom of each webpage. The email address located within the text is a link which wil automatically open the users email app, with the company email already eneterd in the 'To:' field. Office hours are also provided so that the user is aware of when they might expect a reply, or when is best to email the customer service team.
+This is the footer at the bottom of each webpage. The email address located within the text is a link which will automatically open the users email app, with the company email already entered in the 'To:' field. Office hours are also provided so that the user is aware of when they might expect a reply, or when is best to email the customer service team.
 
-### Wireframe design
+### Wireframe designs
 
 Wireframe designs have been added to show the initial ideas and designs on the FreshBox website.
 
@@ -102,13 +99,11 @@ The initial wireframe contained no hero image. In practice this didn't look appe
 
 ### Features Left to Implement
 
-- Create basket and ordering system allowing the user to chose how many boxes they want to receive each week.
-
 - Add new boxes when new boxes if and when new boxes are created.
 
 - Log in / Sign up system to create.
 
-- Modal to notify the customer that their order has been requested.
+- Modal to notify the customer that their order has been requested, along with a link within that modal to take the user back to the homepage.
 
 ## Technologies Used
 
@@ -143,6 +138,7 @@ A number of tests were completed throughout the design and build process. Below 
 | HTML Validator            | Copy code into HTML editor provided by https://validator.w3.org/#validate_by_input | No errors found in the boxes.html                                                               | N/A                                                                                                  |
 | HTML Validator            | Copy code into HTML editor provided by https://validator.w3.org/#validate_by_input | No errors found in order-now.html                                                               | N/A                                                                                                  |
 | Boxes image on index.html | Change screen resolution to view how images behave                                 | Images appeared as a row of 3 and 1                                                             | Changed @media in the CSS to compensate for resolution change                                        |
+| README.md screenshots     | Save and upload changed to GitHub repository                                       | Screenshots were not appearing as expected                                                      | The images were not uploaded in the update. Updated the repository with the images                   |
 
 ## Deployment
 
@@ -175,5 +171,14 @@ I researched a number of websites to create and add features into FreshBox. Belo
 - https://flaticon.com - used for the icons found on index.html and boxes.html. Link also displayed on the footer a requested by the website.
 - https://hellofresh.co.uk - inspiration for the FreshBox business idea.
 - https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository Info on cloning the repository
+- https://getbootstrap.com/ - used for some layouts and code taken for form and navigation bar. CSS was changed from the original. 
 
-All of the content was written by myself.
+### Code used:
+
+- Bootstrap - https://getbootstrap.com/docs/4.5/components/navbar/ used when creating the Navigation Bar which appears throughout the website.
+- Bootstrap - https://getbootstrap.com/docs/4.5/components/forms/ used when creating the order form located in the 'Order-Now' page.
+
+
+All of the content, description was written by myself. Upon reasearching the name, after the website was complete, I realised there were a lot of live sites with very similar names, this was not known to me at the start of the project.
+
+Within the layout of the code, after the <a> and <img>, the closing '>' appears independantly on the next line, this is due to the formatting created through beautifying the code. I tried to work around it by manually putting it in, however it still changed when beautifying the rest of the code.
