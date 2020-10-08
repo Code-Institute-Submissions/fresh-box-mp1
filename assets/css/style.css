@@ -244,6 +244,15 @@ header {
   border: 0;
 }
 
+.more-info-button {
+    margin-bottom: 25px;
+}
+
+.card-body {
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
 /* Customer Reviews */
 .reviews {
   align-items: center;
