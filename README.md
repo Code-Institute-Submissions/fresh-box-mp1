@@ -15,7 +15,7 @@ due to work, gym and social life commitments. They want to increase their orders
 design, making it easy for the user to order their first trial box without having to search for it and the
 website.
 
-## Wireframe design
+### Wireframe design
 
 Designs have been added to show the initial ideas and designs on the FreshBox website. It includes notes on each page to explain why design decisions where made. Some design choices were not kept or altered as they were not best practice when considering user eperience.
 
@@ -76,7 +76,7 @@ Designs have been added to show the initial ideas and designs on the FreshBox we
 - Bootstrap - Grid layouts and form used. Also used to assist with the responsive design
 - Balsamiq - Used to create wire frame designs in the planning stage.
 
-### Testing
+## Testing
 
 A number of tests were completed throughout the design and build process. Below are the details of the testing conducted and completed:
 
@@ -88,8 +88,11 @@ A number of tests were completed throughout the design and build process. Below 
 | Responsive design    | Using the chrome developer tool to change resolution of the page | Content moved and responded as expected, no overlapping or loss of content                     | N/A                                                                                                  |
 | More Info button     | Changing screen resolution size                                  | Content was correctly hidden on resolution change, card was still visable on larger resolution | Added .card rule to @media query to correctly hide content                                           |
 | Hiding content       | Change resolution of the viewport                                | Hero text box was incorrectly staying the same size on smaller resolution                      | Checked the @media css style and saw that a '}' was missing. Added '}' to code, this fixed the issue |
+| Form submission      | Enter details into order-now form and click 'Order Now' button   | Data was not sent correctly and the webpage was only refreshed                                 | Added code into form tag to gather and display correct data                                          |
 
-### Acknowledgements:
+## Deployment
+
+## Acknowledgements:
 
 I researched a number of websites to create and add features into FreshBox. Below is a list with an example of why they were used.
 
