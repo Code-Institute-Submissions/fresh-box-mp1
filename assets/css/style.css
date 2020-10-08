@@ -64,14 +64,14 @@ body {
 
 .hero-image-title {
   font-size: 4em;
-  color: #f4f9f4;
+  color: white;
   text-align: center;
   font-family: "Gayathri", sans-serif;
 }
 
 .hero-image-text {
   font-size: 2.5em;
-  color: #f4f9f4;
+  color: white;
   padding-top: 20px;
   font-family: "Roboto", sans-serif;
   text-align: center;
@@ -196,7 +196,7 @@ header {
   font-family: "Josefin Sans", sans-serif;
   position: absolute;
   font-size: 1.5rem;
-  color: #f4f9f4;
+  color: white;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -208,7 +208,7 @@ header {
   position: absolute;
   top: 0;
   left: 0;
-  color: #f4f9f4;
+  color: white;
   font-size: 1.25rem;
   font-family: "Josefin Sans", sans-serif;
   background: rgba(0, 0, 0, 0.5);
@@ -261,7 +261,7 @@ header {
 
 /*Order Form*/
 .btn-primary {
-  color: #f4f9f4;
+  color: white;
   background-color: #4caf50;
   border-color: #2b9e2f;
 }
@@ -283,17 +283,6 @@ header {
 
 .form-row {
   padding: 5px 0;
-}
-
-/* Modal */
-.btn-secondary {
-  color: #f4f9f4;
-  background-color: #4caf50;
-  border-color: #2b9e2f;
-}
-
-.btn-secondary:hover {
-  background-color: #68b86b;
 }
 
 /* Footer */
@@ -405,31 +394,31 @@ footer {
     display: none;
   }
   .hero-image-text-container {
-      width: 80%;
+    width: 80%;
   }
   .hero-image-title {
-  font-size: 3em;
-  color: #f4f9f4;
-  text-align: center;
-  font-family: "Gayathri", sans-serif;
-}
+    font-size: 3em;
+    color: #f4f9f4;
+    text-align: center;
+    font-family: "Gayathri", sans-serif;
+  }
 
-.hero-image-text {
-  font-size: 1.75em;
-  color: #f4f9f4;
-  padding-top: 20px;
-  font-family: "Roboto", sans-serif;
-  text-align: center;
-}
+  .hero-image-text {
+    font-size: 1.75em;
+    color: #f4f9f4;
+    padding-top: 20px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+  }
 
   .overlay {
     display: none;
   }
 
-.copywrite .css-validator {
+  .copywrite .css-validator {
     float: none;
-}
-.copywrite p{
+  }
+  .copywrite p {
     height: 70px;
-}
+  }
 }
