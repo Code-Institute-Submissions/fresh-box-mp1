@@ -52,13 +52,11 @@ This is the footer at the bottom of each webpage. The email address located with
 
 ### Wireframe design
 
-Designs have been added to show the initial ideas and designs on the FreshBox website.
+Wireframe designs have been added to show the initial ideas and designs on the FreshBox website.
 
 It includes notes on each page to explain why design decisions where made and justifcation on layouts.
 
-Some design choices were not kept or altered as in practice they did not encourage intuitive, user friendly experiences,
-
-This includes:
+Some design choices were not kept or altered as in practice they did not encourage intuitive, user friendly experiences.
 
 #### Design Change 1
 
