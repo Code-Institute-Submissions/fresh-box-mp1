@@ -90,7 +90,7 @@ A number of tests were completed throughout the design and build process. Below 
 | Hiding content       | Change resolution of the viewport                                | Hero text box was incorrectly staying the same size on smaller resolution                      | Checked the @media css style and saw that a '}' was missing. Added '}' to code, this fixed the issue |
 | Form submission      | Enter details into order-now form and click 'Order Now' button   | Data was not sent correctly and the webpage was only refreshed                                 | Added code into form tag to gather and display correct data                                          |
 | Form submission 2    | Enter details into order-now form and click 'Order Now' button   | Data was sent correctly, however not on a new webpage                                          | Added code to open new webpage when 'Order Now' button is clicked                                    |
-
+| Alt Text on images   | Search each 'alt=' and ensure they correctly describe the image  | Several alt text was incorrect                                                                 | Change the alt text to describe the image                                                            |
 
 ## Deployment
 
