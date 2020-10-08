@@ -91,7 +91,11 @@ A number of tests were completed throughout the design and build process. Below 
 | Form submission      | Enter details into order-now form and click 'Order Now' button   | Data was not sent correctly and the webpage was only refreshed                                 | Added code into form tag to gather and display correct data                                          |
 | Form submission 2    | Enter details into order-now form and click 'Order Now' button   | Data was sent correctly, however not on a new webpage                                          | Added code to open new webpage when 'Order Now' button is clicked                                    |
 | Alt Text on images   | Search each 'alt=' and ensure they correctly describe the image  | Several alt text was incorrect                                                                 | Change the alt text to describe the image                                                            |
-| Live Website         | Set up through GitHub Pages                                      | Images were not displaying correctly                                                           | File location was set incorrectly. '/' was removed                                                    |
+| Live Website         | Set up through GitHub Pages                                      | Images were not displaying correctly                                                           | File location was set incorrectly. '/' was removed                                                   |
+| Page loading time    | Clear cache and reload index.html                                | Page took a quite a long time to load the hero image                                           | Resize original hero image to reduce impact on load time                                             |
+| Page loading time    | Clear cache and reload boxes.html                                | Page took a quite a long time to load the hero image                                           | Resize original hero image to reduce impact on load time                                             |
+| Page loading time    | Clear cache and reload order-now.html                            | Page loading time was low                                                                      | N/A                                                                                                  |
+
 
 ## Deployment
 
